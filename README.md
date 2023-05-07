@@ -11,7 +11,7 @@ The game got inspiration from "Chrome Dino".
 In this game, you will become a dinosaur and take part in endless race and comeover obstacles.
 ## Game Rules
 
-You will face cactus and bats. Your mission is to overcome them throughout the race. If you collide them, you will lose. 
+You will face cactus and bats. Your mission is to overcome them throughout the race. If you collide them, your HP will be decreased. Don’t worry, eat apple then your HP will be regenerated.
 
 In particular, the game speed will increase gradually over time, wish you to achieve the highest score.
 
