@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Dino sourcecode" />
+		<Option title="DINO_RUN" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -34,18 +34,22 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Apple.h" />
 		<Unit filename="include/Button.h" />
 		<Unit filename="include/Character.h" />
 		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/Game_Base.h" />
 		<Unit filename="include/Game_Utils.h" />
+		<Unit filename="include/HealthBar.h" />
 		<Unit filename="include/LTexture.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Apple.cpp" />
 		<Unit filename="src/Button.cpp" />
 		<Unit filename="src/Character.cpp" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Game_Base.cpp" />
 		<Unit filename="src/Game_Utils.cpp" />
+		<Unit filename="src/HealthBar.cpp" />
 		<Unit filename="src/LTexture.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

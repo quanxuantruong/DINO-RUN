@@ -12,27 +12,27 @@
 class Character
 {
 public:
-	static const int JUMP_SPEED = 8;
-	static const int FALL_SPEED = 8;
+    static const int JUMP_SPEED = 8;
+    static const int FALL_SPEED = 8;
 
-	Character();
+    Character();
 
-	bool OnGround();
+    bool OnGround();
 
-	void HandleEvent(SDL_Event& e, Mix_Chunk *gJump);
+    void HandleEvent(SDL_Event& e, Mix_Chunk *gJump);
 
-	void Move();
+    void Move();
 
-	void Render(SDL_Rect* currentClip, SDL_Renderer *gRenderer, LTexture gCharacterTexture);
+    void Render(SDL_Rect* currentClip, SDL_Renderer *gRenderer, LTexture gCharacterTexture);
 
-	int GetPosX();
+    int GetPosX();
 
-	int GetPosY();
+    int GetPosY();
 
 private:
-	int posX, posY;
+    int posX, posY;
 
-	int status;
+    int status;
 };
 
 #endif // !CHARACTER_H_

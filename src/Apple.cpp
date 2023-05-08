@@ -1,6 +1,6 @@
-#include "Enemy.h"
+#include "Apple.h"
 
-Enemy::Enemy(int _type)
+Apple::Apple()
 {
     posX = 0;
     posY = 0;
@@ -8,23 +8,14 @@ Enemy::Enemy(int _type)
     eWidth = 0;
     eHeight = 0;
 
-    type = _type;
-    if (type == IN_AIR_ENEMY)
-    {
-        posX = rand() % (SCREEN_WIDTH + ENEMY_POSITION_RANGE) + SCREEN_WIDTH;
-        posY = 330;
+        posX = rand() % (SCREEN_WIDTH + APPLE_POSITION_RANGE) + SCREEN_WIDTH;
+        posY = 520;
         //posY = rand() % (ENEMY_MAX_HEIGHT - ENEMY_MIN_HEIGHT + 1) + ENEMY_MIN_HEIGHT;
-    }
-    else if (type == ON_GROUND_ENEMY)
-    {
-        posX = rand() % (SCREEN_WIDTH + ENEMY_POSITION_RANGE) + SCREEN_WIDTH;
-        posY = GROUND - 8;
-    }
 
-    EnemyTexture = nullptr;
+    AppleTexture = nullptr;
 }
 
-Enemy::~Enemy()
+Apple::~Apple()
 {
     posX = 0;
     posY = 0;
@@ -32,14 +23,13 @@ Enemy::~Enemy()
     eWidth = 0;
     eHeight = 0;
 
-    type = 0;
-    if (EnemyTexture != nullptr)
+    if (AppleTexture != nullptr)
     {
-        EnemyTexture = nullptr;
+        AppleTexture = nullptr;
     }
 }
 
-void Enemy::LoadFromFile(std::string path, SDL_Renderer* gRenderer)
+void Apple::LoadFromFile(std::string path, SDL_Renderer* gRenderer)
 {
     SDL_Texture* tmpTexture = nullptr;
 
@@ -66,24 +56,20 @@ void Enemy::LoadFromFile(std::string path, SDL_Renderer* gRenderer)
         SDL_FreeSurface(tmpSurface);
     }
 
-    EnemyTexture = tmpTexture;
+    AppleTexture = tmpTexture;
 }
 
-void Enemy::Move(const int &acceleration)
+void Apple::Move(const int &acceleration)
 {
     posX += -(ENEMY_SPEED + acceleration);
     if (posX + MAX_ENEMY_WIDTH < 0)
     {
-        posX = rand() % (SCREEN_WIDTH + ENEMY_POSITION_RANGE) + SCREEN_WIDTH;
-
-        if (type == IN_AIR_ENEMY)
-        {
-            posY = 330;
-        }
+        posX = rand() % (SCREEN_WIDTH + APPLE_POSITION_RANGE) + SCREEN_WIDTH;
+        posY = 520;
     }
 }
 
-void Enemy::Render(SDL_Renderer* gRenderer, SDL_Rect* currentClip)
+void Apple::Render(SDL_Renderer* gRenderer, SDL_Rect* currentClip)
 {
     SDL_Rect renderSpace = { posX, posY, eWidth, eHeight };
     if (currentClip != nullptr)
@@ -91,42 +77,30 @@ void Enemy::Render(SDL_Renderer* gRenderer, SDL_Rect* currentClip)
         renderSpace.w = currentClip->w;
         renderSpace.h = currentClip->h;
     }
-    SDL_RenderCopy(gRenderer, EnemyTexture, currentClip, &renderSpace);
+    SDL_RenderCopy(gRenderer, AppleTexture, currentClip, &renderSpace);
 }
 
-int Enemy::GetType()
-{
-    if (type == IN_AIR_ENEMY)
-    {
-        return IN_AIR_ENEMY;
-    }
-    if (type == IN_AIR_ENEMY)
-    {
-        return ON_GROUND_ENEMY;
-    }
-}
-
-int Enemy::GetSpeed(const int &acceleration)
+int Apple::GetSpeed(const int &acceleration)
 {
     return ENEMY_SPEED + acceleration;
 }
 
-int Enemy::GetPosX()
+int Apple::GetPosX()
 {
     return posX;
 }
 
-int Enemy::GetPosY()
+int Apple::GetPosY()
 {
     return posY;
 }
 
-int Enemy::GetWidth()
+int Apple::GetWidth()
 {
     return eWidth;
 }
 
-int Enemy::GetHeight()
+int Apple::GetHeight()
 {
     return eHeight;
 }

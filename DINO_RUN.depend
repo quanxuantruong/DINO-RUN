@@ -1,0 +1,258 @@
+# depslib dependency file v1.0
+1678179960 source:d:\dino sourcecode\main.cpp
+	"Game_Base.h"
+	"Game_Utils.h"
+	"LTexture.h"
+	"Button.h"
+	"Character.h"
+	"Enemy.h"
+
+1678500440 d:\dino sourcecode\include\game_base.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<ctime>
+
+1677833638 d:\dino sourcecode\include\game_utils.h
+	"Game_Base.h"
+	"Button.h"
+	"Enemy.h"
+	"Character.h"
+
+1677833638 d:\dino sourcecode\include\button.h
+	"Game_Base.h"
+	"LTexture.h"
+
+1677833638 d:\dino sourcecode\include\ltexture.h
+	"Game_Base.h"
+
+1677833638 d:\dino sourcecode\include\enemy.h
+	"LTexture.h"
+
+1677833638 d:\dino sourcecode\include\character.h
+	"LTexture.h"
+
+1677833638 source:d:\dino sourcecode\src\button.cpp
+	"Button.h"
+
+1678286240 source:d:\dino sourcecode\src\character.cpp
+	"Character.h"
+
+1677833638 source:d:\dino sourcecode\src\enemy.cpp
+	"Enemy.h"
+
+1677833638 source:d:\dino sourcecode\src\game_base.cpp
+	"Game_Base.h"
+
+1677833638 source:d:\dino sourcecode\src\game_utils.cpp
+	"Game_Utils.h"
+
+1677833638 source:d:\dino sourcecode\src\ltexture.cpp
+	"LTexture.h"
+
+1679460158 source:d:\dinosaur running\main.cpp
+	"Game_Base.h"
+	"Game_Utils.h"
+	"LTexture.h"
+	"Button.h"
+	"Character.h"
+	"Enemy.h"
+
+1679474010 d:\dinosaur running\include\game_base.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<ctime>
+
+1679460031 d:\dinosaur running\include\game_utils.h
+	"Game_Base.h"
+	"Button.h"
+	"Enemy.h"
+	"Character.h"
+
+1677833638 d:\dinosaur running\include\button.h
+	"Game_Base.h"
+	"LTexture.h"
+
+1677833638 d:\dinosaur running\include\ltexture.h
+	"Game_Base.h"
+
+1679478659 d:\dinosaur running\include\enemy.h
+	"LTexture.h"
+
+1679455485 d:\dinosaur running\include\character.h
+	"LTexture.h"
+
+1677833638 source:d:\dinosaur running\src\button.cpp
+	"Button.h"
+
+1679458113 source:d:\dinosaur running\src\character.cpp
+	"Character.h"
+	"Game_Utils.h"
+
+1677833638 source:d:\dinosaur running\src\enemy.cpp
+	"Enemy.h"
+
+1677833638 source:d:\dinosaur running\src\game_base.cpp
+	"Game_Base.h"
+
+1679474777 source:d:\dinosaur running\src\game_utils.cpp
+	"Game_Utils.h"
+
+1677833638 source:d:\dinosaur running\src\ltexture.cpp
+	"LTexture.h"
+
+1679459935 source:d:\dinosaur running\src\colission.cpp
+	"Colission.h"
+
+1679459935 d:\dinosaur running\include\colission.h
+	"Game_Base.h"
+	"Button.h"
+	"Enemy.h"
+	"Character.h"
+	"Game_Utils.h"
+
+1679460158 source:c:\users\xuan truong\onedrive\documents\sdl project\main.cpp
+	"Game_Base.h"
+	"Game_Utils.h"
+	"LTexture.h"
+	"Button.h"
+	"Character.h"
+	"Enemy.h"
+
+1679474010 c:\users\xuan truong\onedrive\documents\sdl project\include\game_base.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<ctime>
+
+1679460031 c:\users\xuan truong\onedrive\documents\sdl project\include\game_utils.h
+	"Game_Base.h"
+	"Button.h"
+	"Enemy.h"
+	"Character.h"
+
+1677833638 c:\users\xuan truong\onedrive\documents\sdl project\include\button.h
+	"Game_Base.h"
+	"LTexture.h"
+
+1677833638 c:\users\xuan truong\onedrive\documents\sdl project\include\ltexture.h
+	"Game_Base.h"
+
+1679478659 c:\users\xuan truong\onedrive\documents\sdl project\include\enemy.h
+	"LTexture.h"
+
+1679455485 c:\users\xuan truong\onedrive\documents\sdl project\include\character.h
+	"LTexture.h"
+
+1677833638 source:c:\users\xuan truong\onedrive\documents\sdl project\src\button.cpp
+	"Button.h"
+
+1679458113 source:c:\users\xuan truong\onedrive\documents\sdl project\src\character.cpp
+	"Character.h"
+	"Game_Utils.h"
+
+1677833638 source:c:\users\xuan truong\onedrive\documents\sdl project\src\enemy.cpp
+	"Enemy.h"
+
+1677833638 source:c:\users\xuan truong\onedrive\documents\sdl project\src\game_base.cpp
+	"Game_Base.h"
+
+1679474777 source:c:\users\xuan truong\onedrive\documents\sdl project\src\game_utils.cpp
+	"Game_Utils.h"
+
+1677833638 source:c:\users\xuan truong\onedrive\documents\sdl project\src\ltexture.cpp
+	"LTexture.h"
+
+1683478427 source:c:\users\xuan truong\onedrive\documents\sdl project ss\main.cpp
+	"Game_Base.h"
+	"Game_Utils.h"
+	"LTexture.h"
+	"Button.h"
+	"Character.h"
+	"Enemy.h"
+	"Apple.h"
+	"HealthBar.h"
+
+1683479106 c:\users\xuan truong\onedrive\documents\sdl project ss\include\game_base.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<ctime>
+
+1683478427 c:\users\xuan truong\onedrive\documents\sdl project ss\include\game_utils.h
+	"Game_Base.h"
+	"Button.h"
+	"Enemy.h"
+	"Character.h"
+	"Apple.h"
+	<windows.h>
+
+1683267267 c:\users\xuan truong\onedrive\documents\sdl project ss\include\button.h
+	"Game_Base.h"
+	"LTexture.h"
+
+1683267267 c:\users\xuan truong\onedrive\documents\sdl project ss\include\ltexture.h
+	"Game_Base.h"
+
+1683478851 c:\users\xuan truong\onedrive\documents\sdl project ss\include\enemy.h
+	"LTexture.h"
+
+1683267267 c:\users\xuan truong\onedrive\documents\sdl project ss\include\character.h
+	"LTexture.h"
+
+1683478541 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\button.cpp
+	"Button.h"
+
+1683267267 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\character.cpp
+	"Character.h"
+	"Game_Utils.h"
+
+1683378734 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\enemy.cpp
+	"Enemy.h"
+
+1683267267 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\game_base.cpp
+	"Game_Base.h"
+
+1683478635 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\game_utils.cpp
+	"Game_Utils.h"
+
+1683267267 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\ltexture.cpp
+	"LTexture.h"
+
+1683378734 c:\users\xuan truong\onedrive\documents\sdl project ss\include\apple.h
+	"LTexture.h"
+
+1683378954 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\apple.cpp
+	"Apple.h"
+
+1683393099 source:c:\users\xuan truong\onedrive\documents\sdl project ss\src\healthbar.cpp
+	"HealthBar.h"
+
+1683391941 c:\users\xuan truong\onedrive\documents\sdl project ss\include\healthbar.h
+	"LTexture.h"
+
