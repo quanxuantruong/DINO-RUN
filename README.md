@@ -45,8 +45,3 @@ PRESS button ESC to QUIT.
 **IDE:** CodeBlock.
 
 **Library:** SDL2. 
-
-## Demo:
-https://drive.google.com/file/d/1EhtiiYrnAfTrf1pxm6WZvBPBKhGw8DHl/view?usp=share_link
-## Demo Gameplay:
-https://drive.google.com/file/d/1bjKIr3MDGZ7jq2gh-H8qcz-EkmAUyi5p/view?usp=sharing
